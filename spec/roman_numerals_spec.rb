@@ -57,5 +57,9 @@ describe RomanNumerals do
     it 'returns "XC" when passed 90' do
       expect(subject.convert(90)).to eq "XC"
     end
+
+    it 'returns "CD" when passed 400' do
+      expect(subject.convert(400)).to eq "CD"
+    end
   end
 end
