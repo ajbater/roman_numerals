@@ -29,5 +29,9 @@ describe RomanNumerals do
     it 'returns "D" when passed 500' do
       expect(subject.convert(500)).to eq "D"
     end
+
+    it 'returns "M" when passed 1000' do
+      expect(subject.convert(1000)).to eq "M"
+    end
   end
 end
