@@ -41,5 +41,9 @@ describe RomanNumerals do
     it 'returns "CCCLXI" when passed 361' do
       expect(subject.convert(361)).to eq "CCCLXI"
     end
+
+    it 'returns "IV" when passed 4' do
+      expect(subject.convert(4)).to eq "IV"
+    end
   end
 end
