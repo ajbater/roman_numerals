@@ -37,5 +37,9 @@ describe RomanNumerals do
     it 'returns "VII" when passed 7' do
       expect(subject.convert(7)).to eq "VII"
     end
+
+    it 'returns "CCCLXI" when passed 361' do
+      expect(subject.convert(361)).to eq "CCCLXI"
+    end
   end
 end
