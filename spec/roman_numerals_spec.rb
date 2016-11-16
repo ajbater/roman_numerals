@@ -17,5 +17,13 @@ describe RomanNumerals do
     it 'returns "X" when passed 10' do
       expect(subject.convert(10)).to eq "X"
     end
+
+    it 'returns "L" when passed 50' do
+      expect(subject.convert(50)).to eq "L"
+    end
+
+    it 'returns "C" when passed 100' do
+      expect(subject.convert(100)).to eq "C"
+    end
   end
 end
