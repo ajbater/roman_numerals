@@ -49,5 +49,9 @@ describe RomanNumerals do
     it 'returns "IX" when passed 9' do
       expect(subject.convert(9)).to eq "IX"
     end
+
+    it 'returns "XL" when passed 40' do
+      expect(subject.convert(40)).to eq "XL"
+    end
   end
 end
